@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Engineer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="matrix-effect"></div>
+
+  <div class="container">
+    <h1>Programming Engineer</h1>
+
+    <div class="buttons-container">
+      <div class="btn-container">
+        <button class="btn" onclick="mostrarTareas()">
+          <div class="matrix-background"></div>
+          <span>Engineer Tasks</span>
+        </button>
+        <p id="tareas-desc" class="desc"></p>
+      </div>
+      
+      <div class="btn-container">
+        <button class="btn" onclick="mostrarAptitudes()">
+          <div class="matrix-background"></div>
+          <span>Necessary skills</span>
+        </button>
+        <p id="aptitudes-desc" class="desc"></p>
+      </div>
+
+      <div class="btn-container">
+        <button class="btn" onclick="mostrarSueldo()">
+          <div class="matrix-background"></div>
+          <span>Average Salary</span>
+        </button>
+        <p id="sueldo-desc" class="desc"></p>
+      </div>
+
+      <div class="btn-container">
+        <button class="btn" onclick="mostrarLugaresTrabajo()">
+          <div class="matrix-background"></div>
+          <span>Workplaces</span>
+        </button>
+        <p id="lugares-desc" class="desc"></p>
+      </div>
+
+      <div class="btn-container">
+        <button class="btn" onclick="mostrarHorarioTrabajo()">
+          <div class="matrix-background"></div>
+          <span>Work Schedule</span>
+        </button>
+        <p id="horario-desc" class="desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
